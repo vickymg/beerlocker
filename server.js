@@ -17,7 +17,7 @@ router.get('/', function(req, res) {
 });
 
 //Register all routes with /api
-app.use('/api, router');
+app.use('/api', router);
 
 //Start the server
 app.listen(port);
